@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: chocolate;
+}
+
+.board{
+    /* box-shadow: 2.5px 2.5px 5px grey; */
+    background-color: khaki;
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+}
+
+.block{
+    color: #fff;
+    background-color: chocolate;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid rgba(49, 18, 18, 0.726); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.block:hover{
+    background-color: rgb(163, 80, 20);
+    box-shadow: inset 5px 5px 10px rgb(160, 80, 20);
+}
+h1,h2{
+    text-align: center;
+    color: #fff;
+}
+.replay-btn{
+    font-size: 16.5px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: khaki;
+    color: chocolate;
+    /* box-shadow: 2px 2px 5px grey; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
