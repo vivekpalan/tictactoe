@@ -69,6 +69,7 @@ function App() {
   
   return (
     <>
+    <div className="app">
     <h1>Tic Tac Toe</h1>
       <div className="board">
         <div className="row">
@@ -89,8 +90,8 @@ function App() {
       </div>
       {gameOver ? <h2><span>{winChecker}</span> won the game 🎉</h2> : ""}
       {gameOver ? <button className='replay-btn' onClick={handleReplay}>Replay</button> : ''}
-
-
+    </div>
+    
 
     </>
   )
